@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Java Bean </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata" />
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <!-- Navigation Part 1-->
+            <div class="navbar-header">
+                <a class="navbar-brand">J.B</a>
+
+                <!-- button visible when navbar collapses -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcontent">
+
+                <!-- displaying icon representing button -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Navigation Part 2 has main content of navigation bar -->
+            <div id="navbarcontent" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"</span></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#brews">Brews</a></li>
+                    <li><a href="#hours">Hours</a></li>
+                    <li><a href="index.html"><span class="glyphicon glyphicon-shopping-cart"</span></a></li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title">
+        <img src="title.jpg" style="width:100%;opacity:.8" />
+        <div class="title-post">
+            <h1>Java Bean</h1>
+            <h2>escape the daily grind</h2>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <div class="row1">
+            <div class="col-sm-4">
+                <img class="icon " src="beans.png">
+                <h3>Coffee</h3>
+                <p>Try over 50 blends of local and exotic brews.</p>
+                <p>Create your own blend by mixing and matching from select options.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="icon" src="volume.png" />
+                <h3>Silence</h3>
+                <p>Java Bean guarantees silence.</p>
+                <p>Kick back, relax, and enjoy a cup of joe over <b>ONLY</b> the sound of brewing coffee and music.</p>
+
+            </div>
+            <div class="col-sm-4">
+                <img class="icon" src="music.jpg" />
+                <h3>Community</h3>
+                <p>Welcome local artists as they perform live acoustic music.</p>
+                <p>10% of all sales will go to supporting wildlife rehabilitation in South America. </p>
+
+            </div>
+        </div>
+
+        <div class="row1">
+            <a href="http://www.ncausa.org/About-Coffee/What-is-Coffee">What is coffee?</a>
+        </div>
+    </div>
+
+
+    <div class="title">
+        <img class="cropimg" src="coffee2.jpg" />
+        <div class="title2-post">
+            <a href="#brews" class="btn btn-primary btn-lg" role="button">View Brews</a>
+        </div>
+    </div>
+
+
+    <div class="container" id="hours">
+        <header>
+            <h2>Hours of Operation</h2>
+        </header>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">Open</th>
+                    <th scope="col">Close</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Monday-Friday</th>
+                    <td>6AM</td>
+                    <td>7PM</td>
+                    <tr>
+                        <th scope="row">Saturday-Sunday</th>
+                        <td>6AM</td>
+                        <td>10PM</td>
+
+                    </tr>
+
+        </table>
+        <footer id="foot">
+            holidays may affect hours
+        </footer>
+    </div>
+
+    <div class="panel panel-default" id="brews">
+        <div class="panel-heading">
+            <h3>Brews</h3>
+        </div>
+        <div class="well" style="background-color:Sandybrown">
+            <h4>Blonde Roast</h4>
+            <ul>
+                <li>
+                    Britney#103
+                </li>
+            </ul>
+        </div>
+        <div class="well" style="background-color:peru">
+            <h4>Breakfast Bold</h4>
+            <ul>
+                <li>
+                    Eggs#101
+                    <ul>
+                        <li>
+                            sweet
+                        </li>
+                        <li>
+                            bitter
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="well" style="background-color:Sienna">
+            <h4>Dark Roast</h4>
+            <ul>
+                <li>
+                    ChestHair#76
+                </li>
+            </ul>
+        </div>
+        <div class="well" style="background-color:#70380f">
+            <h4>Popular Roast</h4>
+            <ol>
+                <li>
+                    Angela#123
+                </li>
+                <li>
+                    Hian-Jia#33
+                </li>
+                <li>
+                    Chan#1
+                </li>
+            </ol>
+        </div>
+
+    </div>
+
+
+
+    <div class="container" id="sponsers">
+        <h2>Sponsers</h2>
+        <div class="col-sm-4">
+            <a href="https:/www.starbucks.com"><img class="logo" src="starbuckslogo.png"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="https:/www.starbucks.com"><img class="logo" src="starbuckslogo.png"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="https:/www.starbucks.com"><img class="logo" src="starbuckslogo.png"></a>
+        </div>
+    </div>
+
+
+    <script src="bootstrap/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
