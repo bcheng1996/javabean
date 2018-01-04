@@ -5,7 +5,6 @@ body{
 }
 
 .title{
-
     position: relative;
     text-align: center;
     color: ghostwhite;
@@ -15,6 +14,7 @@ body{
 
 
 .title-post{
+    font-size: 50%;
     position: absolute;
     top: 50%;
     left: 70%;
